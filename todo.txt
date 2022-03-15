@@ -1,0 +1,15 @@
+20220301
+
+sometimes socket.on("disconnect") has undefined result (fixed)
+
+20220304
+
+auto scroll doesn't work, I assume problem is occuring from the following process.
+
+input value -> scroll calculate -> scroll height calculate pre-rendered -> render -> 
+doens't scroll all the way. fix should be simple just by adding height of an element 
+
+20220314
+
+fix [react_devtools_backend.js:3973 Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function.
+    at ChatPage (http://localhost:3000/static/js/bundle.js:142:5)] 

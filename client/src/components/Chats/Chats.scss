@@ -1,0 +1,30 @@
+$they_color:#FFE600;
+.speechbubble{
+  text-align: center;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  overflow-wrap: break-word;
+  max-width: 30rem;
+}
+.sys{
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+.you{
+  margin-left: auto;  
+  background-color: $they_color;
+}
+.they{
+  margin-right: auto;
+  background-color: white;
+}
+.chatIcon{
+  font-size: 140px;
+  width: 100%;
+  color: white;
+}
+.chat-container{
+  height: 600px;
+}

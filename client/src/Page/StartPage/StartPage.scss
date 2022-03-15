@@ -1,0 +1,23 @@
+.startIcon{
+    position: relative;
+    top: 20%;
+    font-size: 10rem;
+    color: white;
+    display: block;
+    margin: auto;
+    
+}
+.start_chat_btn{
+    position: relative;
+    top: 40%;
+    display: block;
+    background-color: #7B23FF;
+    font-weight: 700;
+    padding: 1rem;
+    border: 1px solid transparent;
+    color: white;
+    &:hover{
+        background-color: #9C5AFF;
+    }
+    
+}
